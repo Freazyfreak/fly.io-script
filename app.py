@@ -6,4 +6,4 @@ app = Flask(__name__)
 def hello_world():
    return 'Hello, World!'
 
-os.system("git clone https://username:token@github.com/username/reponame ok && cd ok && pip3 install -U -r requirements.txt && nohup python3 main.py &")
+os.system("git clone -b dev https://github.com/TeamUltroid/Ultroid ok && cd ok && pip3 install -U -r requirements.txt && pip3 install --no-cache-dir -r re*/st*/op*.txt && python3 -m pyUltroid ")
